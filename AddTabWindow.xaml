@@ -1,0 +1,44 @@
+﻿<Window x:Class="GooseberryPortalApp.AddTabWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Add Tab" Height="200" Width="450"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize">
+    <Grid Margin="12">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Name -->
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Name:" VerticalAlignment="Center" Width="40"/>
+            <TextBox x:Name="NameBox" Width="300"/>
+        </StackPanel>
+
+        <!-- URL -->
+        <StackPanel Orientation="Horizontal"  Grid.Row="1" Margin="0,10,0,0">
+            <TextBlock Text="URL:" VerticalAlignment="Center" Width="40"/>
+            <TextBox x:Name="UrlBox" Width="300"/>
+        </StackPanel>
+
+        <!-- Icon picker -->
+        <StackPanel Orientation="Horizontal" Grid.Row="2" Margin="0,10,0,0">
+            <TextBlock Text="Icon:" VerticalAlignment="Center" Width="40"/>
+            <TextBlock x:Name="IconPathText" VerticalAlignment="Center" Width="220"
+                       TextTrimming="CharacterEllipsis"/>
+            <Button Content="Choose Icon…" Click="ChooseIcon_Click" Width="100" Margin="8,0,0,0"/>
+        </StackPanel>
+
+        <!-- OK / Cancel -->
+        <StackPanel Orientation="Horizontal" Grid.Row="3" Margin="0,16,0,0"
+                    HorizontalAlignment="Right">
+            <Button Content="Cancel" Width="80" Margin="0,0,8,0"
+                    IsCancel="True"/>
+            <Button Content="Add" Width="80" IsDefault="True"
+                    Click="Add_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
