@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/GooseberryLogo.png" alt="Gooseberry Logo" width="120" />
+  <img src="Assets/GooseberryLogo.png" alt="Gooseberry Logo" width="120" />
 </p>
 
 <h1 align="center">Gooseberry Portal</h1>
