@@ -36,13 +36,11 @@ I might come back to this and improve on it somehow - Let me know if you have an
 
 You can download Gooseberry Portal from the [Releases](https://github.com/HabiRabbu/GooseberryPortal/releases) page.
 
----
 
 ### 🔸 If the app installs without issues:
 
 You're all set! Just download the `.msix` file and open it to install.
 
----
 
 ### 🔸 If Windows blocks the install:
 
@@ -63,7 +61,6 @@ Because the app isn't signed with a trusted certificate (yet), you may need to m
 
 3. Run `GooseberryPortal.msix` again — it should now install without issues.
 
----
 
 ### 💡 Still not working?
 
