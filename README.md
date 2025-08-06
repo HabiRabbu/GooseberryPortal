@@ -32,23 +32,23 @@ I might come back to this and improve on it somehow - Let me know if you have an
 
 ---
 
-# 🧩 How to Install Gooseberry Portal
+## 🧩 How to Install Gooseberry Portal
 
 You can download Gooseberry Portal from the [Releases](https://github.com/HabiRabbu/GooseberryPortal/releases) page.
 
 ---
 
-## 🔸 If the app installs without issues:
+### 🔸 If the app installs without issues:
 
 You're all set! Just download the `.msix` file and open it to install.
 
 ---
 
-## 🔸 If Windows blocks the install:
+### 🔸 If Windows blocks the install:
 
 Because the app isn't signed with a trusted certificate (yet), you may need to manually trust it.
 
-### Steps:
+#### Steps:
 
 1. Download both files from the [Releases](https://github.com/HabiRabbu/GooseberryPortal/releases) page:
    - `GooseberryPortal.msix`
@@ -65,16 +65,16 @@ Because the app isn't signed with a trusted certificate (yet), you may need to m
 
 ---
 
-## 💡 Still not working?
+### 💡 Still not working?
 
-You can also try enabling Developer Mode:
+You can also enable Developer Mode:
 
 - Go to **Settings > Privacy & Security > For Developers**
 - Toggle **Developer Mode** ON
 
-Then run the `.msix` file again.
+Then try running the `.msix` file again.
 
-Let me know if you run into issues!
+Let me know if you run into any issues!
 
 ---
 
