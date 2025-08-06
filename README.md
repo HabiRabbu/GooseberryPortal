@@ -51,8 +51,8 @@ Because the app isn't signed with a trusted certificate (yet), you may need to m
 #### Steps:
 
 1. Download both files from the [Releases](https://github.com/HabiRabbu/GooseberryPortal/releases) page:
-   - `GooseberryPortal.msix`
-   - `GooseberryPortal.cer`
+   - `GooseberryPortal_1.0.0.0_x64.msix`
+   - `GooseberryPortal_1.0.0.0_x64.cer`
 
 2. **Install the certificate**:
    - Double-click `GooseberryPortal.cer`
