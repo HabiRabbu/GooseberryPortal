@@ -32,23 +32,49 @@ I might come back to this and improve on it somehow - Let me know if you have an
 
 ---
 
-# 🧩 How to Install
+# 🧩 How to Install Gooseberry Portal
 
-Because this app isn't signed with a trusted certificate yet, Windows might block it. Here's how to install:
+You can download Gooseberry Portal from the [Releases](https://github.com/HabiRabbu/GooseberryPortal/releases) page.
 
-1. Download and run `gooseberry-portal.msix`
-   - If it fails, proceed to step 2
+---
 
-2. Download `gooseberry-cert.cer` and double-click it
+## 🔸 If the app installs without issues:
 
-3. In the wizard:
-   - Select **Local Machine**
-   - Choose **Place all certificates in the following store**
-   - Pick **Trusted People**
+You're all set! Just download the `.msix` file and open it to install.
 
-4. After installing the certificate, run the `.msix` again.
+---
 
-If you're unsure, you can also enable Developer Mode in Windows settings.
+## 🔸 If Windows blocks the install:
+
+Because the app isn't signed with a trusted certificate (yet), you may need to manually trust it.
+
+### Steps:
+
+1. Download both files from the [Releases](https://github.com/HabiRabbu/GooseberryPortal/releases) page:
+   - `GooseberryPortal.msix`
+   - `GooseberryPortal.cer`
+
+2. **Install the certificate**:
+   - Double-click `GooseberryPortal.cer`
+   - Choose **Local Machine**
+   - Select **Place all certificates in the following store**
+   - Choose **Trusted People**
+   - Complete the wizard
+
+3. Run `GooseberryPortal.msix` again — it should now install without issues.
+
+---
+
+## 💡 Still not working?
+
+You can also try enabling Developer Mode:
+
+- Go to **Settings > Privacy & Security > For Developers**
+- Toggle **Developer Mode** ON
+
+Then run the `.msix` file again.
+
+Let me know if you run into issues!
 
 ---
 
