@@ -32,11 +32,23 @@ I might come back to this and improve on it somehow - Let me know if you have an
 
 ---
 
-## 📥 Installation
+# 🧩 How to Install
 
-1. Download the latest `.msix` file from the [Releases](https://github.com/HabiRabbu/GooseberryPortal/releases) page
-2. If prompted, install the certificate
-3. Double-click the installer
+Because this app isn't signed with a trusted certificate yet, Windows might block it. Here's how to install:
+
+1. Download and run `gooseberry-portal.msix`
+   - If it fails, proceed to step 2
+
+2. Download `gooseberry-cert.cer` and double-click it
+
+3. In the wizard:
+   - Select **Local Machine**
+   - Choose **Place all certificates in the following store**
+   - Pick **Trusted People**
+
+4. After installing the certificate, run the `.msix` again.
+
+If you're unsure, you can also enable Developer Mode in Windows settings.
 
 ---
 
