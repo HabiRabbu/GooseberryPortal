@@ -49,17 +49,17 @@ Because the app isn't signed with a trusted certificate (yet), you may need to m
 #### Steps:
 
 1. Download both files from the [Releases](https://github.com/HabiRabbu/GooseberryPortal/releases) page:
-   - `GooseberryPortal_1.0.0.0_x64.msix`
-   - `GooseberryPortal_1.0.0.0_x64.cer`
+   - `GooseberryPortal_Installer.msix`
+   - `GooseberryPortal_Certificate.cer`
 
 2. **Install the certificate**:
-   - Double-click `GooseberryPortal.cer`
+   - Double-click `GooseberryPortal_Certificate.cer`
    - Choose **Local Machine**
    - Select **Place all certificates in the following store**
    - Choose **Trusted People**
    - Complete the wizard
 
-3. Run `GooseberryPortal.msix` again — it should now install without issues.
+3. Run `GooseberryPortal_Installer.msix` again — it should now install without issues.
 
 
 ### 💡 Still not working?
